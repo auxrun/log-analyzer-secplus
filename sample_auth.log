@@ -1,0 +1,5 @@
+Mar 27 10:15:43 localhost sshd[1001]: Failed password for invalid user root from 192.168.1.100 port 22 ssh2
+Mar 27 10:16:10 localhost sshd[1001]: Failed password for user admin from 192.168.1.101 port 22 ssh2
+Mar 27 10:16:45 localhost sshd[1001]: Accepted password for user alex from 192.168.1.102 port 22 ssh2
+Mar 27 10:17:12 localhost sshd[1001]: Failed password for root from 192.168.1.100 port 22 ssh2
+Mar 27 10:18:03 localhost sshd[1001]: Failed password for root from 192.168.1.103 port 22 ssh2
