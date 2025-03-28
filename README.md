@@ -93,24 +93,20 @@ It intelligently filters out system/service accounts (like `SYSTEM` or machine n
 
 3. Move the log into WSL:
    ```bash
-   cp /mnt/c/Users/<YourUsername>/Downloads/eventlog.txt ~/real_logs.txt```
+   cp /mnt/c/Users/<YourUsername>/Downloads/eventlog.txt ~/real_logs.txt
+   ```
 4. Run the script:
    ```bash
-   python3 log_analyzer_windows.py real_logs.txt```
+   python3 log_analyzer_windows.py real_logs.txt
+   ```
 
 SAMPLE OUTPUT
    ```csharp
    🔐 Failed Login Attempts by Account:
       some+email@gmail.com: 1 attempt(s)
 
-   🚨 Accounts with Multiple Failures:```
-      
----
-
-### 3. Save & Exit:
-```yaml
-   - `CTRL + O`, then `Enter` to save
-   - `CTRL + X` to exit```
+   🚨 Accounts with Multiple Failures:
+```
 
 
 
